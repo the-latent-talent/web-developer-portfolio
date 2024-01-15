@@ -87,6 +87,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+   margin-top: 130px;
+}
  /* about section styles */
  .about{
     padding: 130px;
@@ -103,4 +106,18 @@ margin: 130px 0;
  }
  #what-i-do-description{
     padding: 30px 150px;
+ }
+ .skills-container{
+   display: flexbox;
+   gap: 24px;
+ }
+ 
+ .skill{
+   padding: 30px;
+   border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ }
+ .skill-description{
+   padding: 30px;
  }
